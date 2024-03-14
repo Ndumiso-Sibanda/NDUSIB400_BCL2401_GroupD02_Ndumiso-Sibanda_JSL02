@@ -1,30 +1,36 @@
-# [JSL02] Submission: Debug the DOM
+How to Use
+Enter your workout in the input field and click "Add Workout" to track your workouts.
+Enter your fitness goal in the input field and click "Add Goal" to track your fitness goals, ensuring no duplicates are added.
+Use the "+1 glass" and "-1 glass" buttons to track your daily water intake.
+Use the "Toggle Theme" button to switch between light and dark themes.
+Use the form to submit your weekly meal plan.
 
-You will: 
-1. Use the Starter Code Repo, 
-2. Code your solution,
-3. Commit changes to your repo
-3. Submit GitHub Repo Link to LMS [JSL02] Submission Project Tab
+Learning Experience Goals
+DOM Manipulation: I aim to practice selecting and manipulating DOM elements using JavaScript to enhance my front-end development skills.
+Event Handling: I want to become proficient in handling user events like button clicks and form submissions to create interactive user experiences.
+Form Validation: Implementing form validation will help me prevent duplicate goals and handle user input effectively, improving the usability of the application.
+CSS Styling: Applying CSS styles to create a visually appealing and responsive web application is a key goal for me.
+Debugging: I aim to improve my debugging skills to identify and fix issues in the code efficiently.
+Git Version Control: Learning to use Git for version control and collaboration is important for my professional development.
 
-# Debugging Duplicate Goals
+Feelings
+Excited: I'm excited to learn and apply new web development concepts, especially in creating a functional fitness tracker.
+Challenged: Some parts of the project are challenging, but I'm determined to overcome them and grow as a developer.
+Accomplished: Each feature I add successfully makes me feel accomplished and motivates me to continue learning.
+Curious: I'm curious to explore more advanced topics and improve my skills further to create even more complex web applications in the future.
 
-**Debugging Brief:**
-In the current code, users can add the same fitness goal multiple times, leading to duplicate entries in the goal list. To enhance the user experience and prevent duplicates, you need to implement a check to ensure that the same goal cannot be added more than once. If a duplicate goal is detected, it should NOT be added to the list.
+Features
+Welcome Message: Displays a welcome message with the current date.
+Workout Tracker: Allows users to add their workout routines to a list.
+Goal Tracker: Allows users to add their fitness goals to a list, preventing duplicates.
+Water Intake Tracker: Tracks the user's daily water intake and allows them to increase or decrease the count.
+Weekly Progress Charts: Displays mockup progress charts for workout and calorie intake progress.
+Theme Toggle: Allows users to toggle between a light and dark theme.
+Meal Plan Submission: Allows users to submit their weekly meal plan using a form.
 
-![alt text](JSL02_Solution.png)
-
-**Issue:** Users can add duplicate fitness goals.
-**Debugging Task:** Prevent users from adding the same goal more than once.
-
-- The goal is to prevent users from adding duplicate fitness goals to the list.
-- You need to check if the goal being added already exists in the list before appending it.
-- Display an alert to inform the user if they are trying to add a duplicate goal.
-- Focus on the code structure within the function and how to handle duplicates.
-
-**Explanation:**
-1. We first retrieve all the existing goals in the `goalList` using `querySelectorAll`.
-2. Then, we iterate through each existing goal and compare its text content with the new goal input.
-3. If a duplicate is found, we display an alert message and exit the function using `return` to prevent the duplicate goal from being added.
-4. If no duplicate is found, we proceed to create and add the new goal as before.
-
-Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/pwVxGLDUW
+How to Use
+Enter your workout in the input field and click "Add Workout" to track your workouts.
+Enter your fitness goal in the input field and click "Add Goal" to track your fitness goals, ensuring no duplicates are added.
+Use the "+1 glass" and "-1 glass" buttons to track your daily water intake.
+Use the "Toggle Theme" button to switch between light and dark themes.
+Use the form to submit your weekly meal plan.
